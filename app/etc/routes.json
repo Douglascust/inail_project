@@ -1,0 +1,78 @@
+{	
+	"index"		: 	{ 
+		"path" 		: "app/views/index.php", 
+		"sanitize"  : {"requestVars" : true, "code" : true, "sql" : true},
+		"errorPath" : "app/views/public_home.php"
+	},
+	"login"		: 	{ 
+		"path" 		: "app/views/login.php", 
+		"sanitize"  : {"requestVars" : true, "code" : true, "sql" : true},
+		"errorPath" : "app/views/public_home.php"
+	},
+	"agendamento"	: 	{ 
+		"path" 		: "app/views/agendamento.php", 
+		"sanitize"  : {"requestVars" : true, "code" : true, "sql" : true},
+		"errorPath" : "app/views/public_home.php"
+	},
+	"cadastrar"		: 	{ 
+		"path" 		: "app/views/cadastrar.php", 
+		"sanitize"  : {"requestVars" : true, "code" : true, "sql" : true},
+		"errorPath" : "app/views/public_home.php"
+	},
+	"cliente"		: 	{ 
+		"path" 		: "app/views/cliente.php", 
+		"sanitize"  : {"requestVars" : true, "code" : true, "sql" : true},
+		"errorPath" : "app/views/public_home.php"
+	},
+	"portifolio"		: 	{ 
+		"path" 		: "app/views/portifolio.php", 
+		"sanitize"  : {"requestVars" : true, "code" : true, "sql" : true},
+		"errorPath" : "app/views/public_home.php"
+	},
+	"loginmani"		: 	{ 
+		"path" 		: "app/views/loginmani.php", 
+		"sanitize"  : {"requestVars" : true, "code" : true, "sql" : true},
+		"errorPath" : "app/views/public_home.php"
+	},
+	"manicure"		: 	{ 
+		"path" 		: "app/views/manicure.php",
+		"sanitize"  : {"requestVars" : true, "code" : true, "sql" : true},
+		"errorPath" : "app/views/public_home.php"
+	},	
+	"email"		: 	{ 
+		"path" 		: "app/views/email.php",
+		"sanitize"  : {"requestVars" : true, "code" : true, "sql" : true},
+		"errorPath" : "app/views/public_home.php"
+	},
+	"ctrlcliente"		: 	{ 
+		"path" 		: "app/controllers/CtrlCliente.php",
+		"sanitize"  : {"requestVars" : true, "code" : true, "sql" : true},
+		"errorPath" : "app/views/public_home.php"
+	},
+	"ctrlagendacliente"		: 	{ 
+		"path" 		: "app/controllers/CtrlAgenda_cliente.php",
+		"sanitize"  : {"requestVars" : true, "code" : true, "sql" : true},
+		"errorPath" : "app/views/public_home.php"
+	},
+	"ctrlprofissional"		: 	{ 
+		"path" 		: "app/controllers/CtrlProfissional.php",
+		"sanitize"  : {"requestVars" : true, "code" : true, "sql" : true},
+		"errorPath" : "app/views/public_home.php"
+	},	
+	"ctrlprocedimento"		: 	{ 
+		"path" 		: "app/controllers/CtrlProcedimento.php",
+		"sanitize"  : {"requestVars" : true, "code" : true, "sql" : true},
+		"errorPath" : "app/views/public_home.php"
+	},
+	"agendacliente"		: 	{ 
+		"path" 		: "app/models/Agendacliente.php",
+		"sanitize"  : {"requestVars" : true, "code" : true, "sql" : true},
+		"errorPath" : "app/views/public_home.php"
+	},
+	"404":	{
+		"path" : "app/views/error404.php",
+		"sessionKey": [{"idUsuario": false}], 
+		"sanitize"  : {"requestVars" : false, "code" : false, "sql" : false},
+		"errorPath" : "app/views/public_home.php"
+	}
+}
